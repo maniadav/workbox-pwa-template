@@ -29,6 +29,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "next.config.mjs"
-  ],
+, "src/useServiceWorker.js"  ],
   "exclude": ["node_modules"]
 }

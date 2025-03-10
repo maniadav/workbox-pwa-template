@@ -1,7 +1,8 @@
+import ImageCard from "@/components/ImageCard";
 import Page from "@/components/page";
 import Section from "@/components/section";
 import Link from "next/link";
-import AppUpdate from "./AppUpdate";
+// import AppUpdate from "./AppUpdate";
 
 const Home = () => (
   <Page>
@@ -38,7 +39,7 @@ const Home = () => (
             🚀 View on GitHub
           </Link>
         </div>
-        <AppUpdate />
+        <ImageCard />
       </main>
     </Section>
   </Page>
